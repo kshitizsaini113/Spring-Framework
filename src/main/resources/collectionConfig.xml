@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean class="com.springcore.collections.Teacher" name="teacher1">
+        <property name="teacherName" value="Random Teacher Name" />
+        <property name="teacherNumbers">
+            <list>
+                <value>11111</value>
+                <value>22222</value>
+                <value>33333</value>
+            </list>
+        </property>
+        <property name="teacherAddresses">
+            <set>
+                <value>Address - 1</value>
+                <value>Address - 2</value>
+                <value>Address - 3</value>
+            </set>
+        </property>
+        <property name="teacherCourses">
+            <map>
+                <entry key="Java" value="62" />
+                <entry key="C++" value="54" />
+            </map>
+        </property>
+    </bean>
+</beans>
