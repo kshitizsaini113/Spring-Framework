@@ -3,14 +3,8 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean class="com.springcore.Student" name="student1">
-        <property name="studentId">
-            <value>500067035</value>
-        </property>
-        <property name="studentName">
-            <value>Kshitiz Saini</value>
-        </property>
-        <property name="studentAddress">
-            <value>Rohtak, Haryana</value>
-        </property>
+        <property name="studentId" value="500067035"/>
+        <property name="studentName" value="Kshitiz Saini"/>
+        <property name="studentAddress" value="Rohtak, Haryana"/>
     </bean>
 </beans>
