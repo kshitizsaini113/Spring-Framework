@@ -10,4 +10,13 @@
         <constructor-arg value="13" type="int"/>
         <constructor-arg ref="certi1" />
     </bean>
+    <bean class="com.springcore.constructorInjection.Person" name="person2">
+        <constructor-arg>
+            <list>
+                <value>1</value>
+                <value>2</value>
+                <value>3</value>
+            </list>
+        </constructor-arg>
+    </bean>
 </beans>
